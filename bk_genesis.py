@@ -6,12 +6,10 @@ import math
 import time
 
 #"All" English words list
-word_list = words.words()
+word_list = words.words() 
 
-print(word_list[0:2])
-
-
-for L in range(2, len(word_list)+1):
+#Range Number determins books smallest amount of words
+for L in range(100 , len(word_list)+1):
     print("Sleeping")
     time.sleep(10)
     print("Going to work")
